@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+input:valid {
+    border: 2px solid green;
+    background-color: rgba(0, 128, 0, 0.122);
+  }
+
+  input:invalid {
+    border: 2px dotted rgb(128, 0, 0);
+    background-color: rgba(229, 165, 243, 0.122);
+  }
